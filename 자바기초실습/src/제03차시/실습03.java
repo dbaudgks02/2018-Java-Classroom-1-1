@@ -22,7 +22,23 @@ public class 실습03 {
 		String g2=new String("통신과");
 		System.out.println(f1.hashCode() + " 그리고 " +  (f1==f2) + "," + (g1==g2));
 		System.out.println(f1.equals(f2) + "," + g1.equals(g2));
-	}
+		
+		//비트 연산자: 교과서 33쪽
+		System.out.println(0b00000110 & 0b11111101);
+		System.out.println(0b00000110 | 0b00001000);
+		System.out.println(0b00000110 ^ 0b00001111);
+		System.out.println(~0b00000110);
+		System.out.println(0b00010100 >> 2);
+		System.out.println(0b00010100 << 2);
+		
+		System.out.println(0b100000000000000000000000010100 >> 2);
+		System.out.println(0b100000000000000000000000010100 >>> 2);
+		
+		System.out.println(-1 >> 2);
+		System.out.println(-1 >>> 2);
+		
+		System.out.printf("%d, %d, 0b1 << 31 (0b1 << 31)-1");
+	} 
 		
 }
 
