@@ -6,7 +6,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		JFrame jf=new JFrame();
-		
+		jf.setTitle("통신과");
+		jf.setSize(300, 300);
+		jf.setLocationRelativeTo(null);
+		jf.setVisible(true);
 	}
 
 }
