@@ -1,0 +1,23 @@
+package _04생성자오버로딩;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student stu1 = new Student();
+		stu1.name = "홀길동";
+		stu1.age = 17;
+		stu1.print();
+
+		Student stu2 = new Student("장길산");
+		stu2.age = 18;
+		stu2.print();
+
+		Student stu3 = new Student(19);
+		stu3.name = "황진이";
+		stu3.print();
+
+		Student stu4 = new Student("이순신", 20);
+		stu4.print();
+	}
+
+}
